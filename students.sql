@@ -21,6 +21,10 @@ SET time_zone = "+00:00";
 -- Database: `gcp-appengine-students-db`
 --
 
+CREATE DATABASE `gcp-appengine-students-db`;
+
+USE `gcp-appengine-students-db`;
+
 -- --------------------------------------------------------
 
 --
