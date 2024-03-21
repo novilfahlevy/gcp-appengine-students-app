@@ -7,7 +7,7 @@ const mysql = require('mysql')
 let conn = null
 
 app.get('/', (req, res) => {
-  res.send('GCP App Engine Students Data')
+  res.send({ message: 'GCP App Engine Students Data' })
 })
 
 app.get('/students', (req, res) => {
